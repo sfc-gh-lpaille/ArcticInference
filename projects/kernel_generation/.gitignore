@@ -1,0 +1,75 @@
+/target
+
+.env
+
+/references/
+
+# Run artifacts: lineage git repos, archives, manifests, journals, exported best
+/runs/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Large upstream reference PDF at repo root (re-downloadable Apple spec)
+/Metal-Shading-Language-Specification.pdf
+
+# macOS / editor junk and local caches
+.DS_Store
+.cache/
+
+# Local AVO run logs (kg_*.log etc.)
+*.log
+logs/
+# Local pi-reference study notes
+/pi_study/
+
+# Scratch image / vector exports (regenerated ad hoc)
+/tmp.png
+/tmp.svg
+/tmp_*.png
+/rust_resized_*.png
+
+# Local run PID files
+*.pid
+/run_pids/
+
+# Editor / backup files
+*.bak
+
+# Cursor IDE
+/.cursor/
+
+# Local scratch files / metal experiments
+/metal-research/
+/setup.sh
+/debug_notes.md
+
+# AVO design / plan / research working notes
+/avo_beam_build_plan.md
+/avo_next_steps_plan.md
+/avo_parallelization_design.md
+/avo_research_notes.md
+/avo_run_findings.md
+/avo_search_tree_design.md
+/attention_beam_8h_research_note.md
+/gemm_beam_2h_research_note.md
+/gemm_run_notes.md
+/run_8h_b200_sdpa.md
+
+# Local todo list
+/todo.md
+
+# Local integration tests (kept on yak, not on GitHub for now)
+/tests/
+
+# Local smoke examples
+/examples/
+
+# Claude Code local config / session state
+/.claude/
+/CLAUDE.md
+
+# Local launch script + embedding experiments (kept local, not on GitHub)
+/run.sh
+/embeddings_experiments/
