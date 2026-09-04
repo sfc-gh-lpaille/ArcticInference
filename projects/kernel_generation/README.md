@@ -150,7 +150,7 @@ toolkit or PTX ISA ships:
 
 Prerequisites are [uv](https://docs.astral.sh/uv/) — which fetches the one Python
 dependency per-run, so there is nothing to install first — and, for the papers,
-`cargo install --git https://github.com/snowflakedb/ArcticInference texmark`.
+`cargo install --git https://github.com/snowflakedb/ArcticInference texmark` **(available in ./tools/texmark)**.
 
 The script is one line per document. To refresh a single doc run just its line, and
 to add one copy a line. Everything it writes is committed, so `git diff --stat`
